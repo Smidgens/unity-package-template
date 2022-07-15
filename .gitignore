@@ -1,0 +1,46 @@
+
+###################
+#### PROJECT ######
+###################
+
+# package exports
+Export/
+
+###################
+##### UNITY #######
+###################
+
+Logs/
+Library/
+Temp/
+*.csproj
+*.sln
+obj/
+UserSettings/
+
+###################
+###### IDE ########
+###################
+
+# Visual Studio
+.vs/
+.vsconfig
+
+# Code
+**/.vscode/
+*.code-workspace
+
+###################
+####### OS ########
+###################
+
+# Ubuntu
+packages-microsoft-prod.deb
+
+# SteveJobsOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+[Dd]esktop.ini

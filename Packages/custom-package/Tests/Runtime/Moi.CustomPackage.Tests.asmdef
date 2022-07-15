@@ -1,0 +1,19 @@
+{
+    "name": "Moi.CustomPackage.Tests",
+    "rootNamespace": "Moi.CustomPackage.Tests",
+    "references": [
+        "GUID:25b22fce9c7437b489a07f6ad408f5d6",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

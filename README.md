@@ -9,16 +9,24 @@ Template for creating custom packages for Unity. Includes folder structure as re
 * Quick export as tarball archive.
 * Package linting.
 
-<br>
+<br/>
 
 # 📥 Setup
 
 * Clone project and use as basis for a new package.
 
-<br>
+<br/>
 
 # 🚀 Usage
 
-* Running lint tool
 * Exporting package
 * Importing package into projects
+
+<br/>
+
+# See Also
+
+### Unity Docs
+
+* [Custom Packages](https://docs.unity3d.com/Manual/CustomPackages.html)
+* [Package Manifest](https://docs.unity3d.com/Manual/upm-manifestPkg.html)
