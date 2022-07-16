@@ -23,14 +23,26 @@ namespace Smidgenomics.Tools.Packages
 	{
 		public static bool IsValid(this in PackageManifest mf)
 		{
-			if (!PackageLint.IsValidName(mf.name)) { return false; }
-			if (!PackageLint.IsValidVersion(mf.name)) { return false; }
+			if (!mf.HasValidName()) { return false; }
+			if (!mf.HasValidVersion()) { return false; }
 			return true;
 		}
 
 		public static string GetFullName(this in PackageManifest mf)
 		{
 			return $"{mf.name}@{mf.version}";
+		}
+
+		public static bool HasValidName(this in PackageManifest mf)
+		{
+			// TODO: check if properly formatted name (as per unity package conventions)
+			return !string.IsNullOrEmpty(mf.name);
+		}
+
+		public static bool HasValidVersion(this in PackageManifest mf)
+		{
+			// TODO: check if proper semver string
+			return !string.IsNullOrEmpty(mf.version);
 		}
 	}
 }
