@@ -43,4 +43,4 @@ Also included is a basic package export tool for compressing packages to archive
 
 * [Custom Packages](https://docs.unity3d.com/Manual/CustomPackages.html)
 * [Package Manifest](https://docs.unity3d.com/Manual/upm-manifestPkg.html)
-* [Package Organization](https://docs.unity3d.com/Manual/cus-layout.html)
+* [Package Layout](https://docs.unity3d.com/Manual/cus-layout.html)
