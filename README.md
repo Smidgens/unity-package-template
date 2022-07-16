@@ -13,7 +13,7 @@ Also included is a basic package export tool for compressing packages to archive
 - [ ] [Password Compression]()
  
 **Notes**:
-* The project is set to `2020.3` but this isn't a requirement (so long as the version you're using isn't ancient or pre package system).
+* The project is set to `2020.3` but there's no particular version requirement so long as the unity version you're using isn't ancient or pre package system.
 * The project is almost completedly stripped of the usual dependencies Unity adds by default for new projects so you'll have to go through the Package Manager UI and manually enable those you need.
 
 <br/><br/>
