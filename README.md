@@ -1,4 +1,8 @@
+![Unity](https://img.shields.io/badge/-Unity-000?&logo=Unity)
+
 # 📦 Unity Package Template
+
+
 
 Project template for creating a custom package for Unity. Uses conventions recommended by Unity's official documentation on packages (see links below).
 
