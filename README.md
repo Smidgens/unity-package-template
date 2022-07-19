@@ -1,4 +1,8 @@
+![Unity](https://img.shields.io/badge/-Unity-000?&logo=Unity)
+
 # 📦 Unity Package Template
+
+
 
 Project template for creating a custom package for Unity. Uses conventions recommended by Unity's official documentation on packages (see links below).
 
@@ -13,8 +17,8 @@ Also included is a basic package export tool for compressing packages to archive
 - [ ] [Password Compression]()
  
 **Notes**:
-* The project is set to `2020.3` but this isn't a requirement (so long as the version you're using isn't ancient or pre package system).
-* The project is almost completedly stripped of the usual package dependencies Unity adds by default for new projects so you'll have to go through the Package Manager UI and manually enable those you need.
+* The project is set to `2020.3` but there's no particular version requirement so long as the unity version you're using isn't ancient or pre package system.
+* The project is almost completedly stripped of the usual dependencies Unity adds by default for new projects so you'll have to go through the Package Manager UI and manually enable those you need.
 
 <br/><br/>
 
@@ -43,4 +47,4 @@ Also included is a basic package export tool for compressing packages to archive
 
 * [Custom Packages](https://docs.unity3d.com/Manual/CustomPackages.html)
 * [Package Manifest](https://docs.unity3d.com/Manual/upm-manifestPkg.html)
-* [Package Organization](https://docs.unity3d.com/Manual/cus-layout.html)
+* [Package Layout](https://docs.unity3d.com/Manual/cus-layout.html)
