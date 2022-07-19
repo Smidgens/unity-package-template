@@ -4,19 +4,19 @@
 ###################
 
 # package exports
-Export/
+/Export/
 
 ###################
 ##### UNITY #######
 ###################
 
-Logs/
-Library/
-Temp/
+/Logs/
+/Library/
+/Temp/
 *.csproj
 *.sln
-obj/
-UserSettings/
+/obj/
+/UserSettings/
 
 ###################
 ###### IDE ########
